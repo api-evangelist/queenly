@@ -1,4 +1,16 @@
 aid: queenly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/queenly.png
 name: Queenly
 description: Queenly is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,12 +23,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Marketplace
+- Fashion
+- E-Commerce
+- Resale
+x-status: defunct
+x-status-evidence: 'queenly.com apex 301-redirects to gritbrokerage.com/inquiry (domain
+  broker / for-sale); no api.queenly.com host resolves; Queenly app no longer listed
+  in the Apple App Store; no developer, API, or documentation surface found. queenly.co
+  is an unrelated designer-gown boutique, not this a16z portfolio company. Probed 2026-07-20.'
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
