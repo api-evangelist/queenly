@@ -34,18 +34,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Marketplace
 - Fashion
 - E-Commerce
 - Resale
+- Defunct
 x-status: defunct
-x-status-evidence: 'queenly.com apex 301-redirects to gritbrokerage.com/inquiry (domain
-  broker / for-sale); no api.queenly.com host resolves; Queenly app no longer listed
-  in the Apple App Store; no developer, API, or documentation surface found. queenly.co
-  is an unrelated designer-gown boutique, not this a16z portfolio company. Probed 2026-07-20.'
+x-status-evidence: queenly.com apex 301-redirects to gritbrokerage.com/inquiry (domain broker / for-sale);
+  no api.queenly.com host resolves; Queenly app no longer listed in the Apple App Store; no developer,
+  API, or documentation surface found. queenly.co is an unrelated designer-gown boutique, not this a16z
+  portfolio company. Probed 2026-07-20.
 apis: []
 maintainers:
 - FN: Kin Lane
