@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/queenly/integrations
+- https://n8n.io/integrations/queenly/
+- https://composio.dev/toolkits/queenly
+- https://monid.ai/tools/queenly
+checked:
+- https://composio.dev/toolkits/queenly
+- https://monid.ai/tools/queenly
+- https://n8n.io/integrations/queenly/
+- https://zapier.com/apps/queenly/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
